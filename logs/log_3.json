@@ -1,0 +1,33 @@
+{
+  "current_term": 10,
+  "voted_for": null,
+  "logs": [
+    {
+      "index": 0,
+      "term": 10,
+      "command": {
+        "cmd": "create_topic",
+        "topic": "e2e_redirect_topic"
+      }
+    },
+    {
+      "index": 1,
+      "term": 10,
+      "command": {
+        "cmd": "put_message",
+        "topic": "e2e_redirect_topic",
+        "message": "r1"
+      }
+    },
+    {
+      "index": 2,
+      "term": 10,
+      "command": {
+        "cmd": "put_message",
+        "topic": "e2e_redirect_topic",
+        "message": "r2"
+      }
+    }
+  ],
+  "commit_index": 2
+}
